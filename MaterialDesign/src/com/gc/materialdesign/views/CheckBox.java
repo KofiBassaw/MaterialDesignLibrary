@@ -167,8 +167,11 @@ public class CheckBox extends CustomView {
 		if (check) {
 			step = 0;
 		}
-		if (check)
+		if (check){
 			checkView.changeBackground();
+				invalidate();
+		}
+			
 
 	}
 
